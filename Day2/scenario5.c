@@ -7,7 +7,7 @@ int main(){
     int days;
     float bill=0.0f;
     printf("Patient Name: ");
-    scanf("%s",name);
+    scanf("%[^\n]s",name);
     printf("Ward type P/S/G: ");
     //fflush(stdin);
     scanf(" %c",&wardType);
@@ -18,34 +18,34 @@ int main(){
     {
         case 'P':bill=calculateBill(wardType,days);
                  if(days>7){
-                    printf("\nTotal Bill Before Discount:  %f",bill);
-                    printf("\nDiscount Applied:  %f",bill*.05);
-                    printf("\nFinal Bill Amount:  %f",bill-(bill*.05));  
+                    printf("\nTotal Bill Before Discount:  %.0f",bill);
+                    printf("\nDiscount Applied:  %.0f",bill*.05);
+                    printf("\nFinal Bill Amount:  %.0f",bill-(bill*.05));  
                  }
                  else{
-                    printf("\nFinal Bill Amount:  %f",bill);
+                    printf("\nFinal Bill Amount:  %.0f",bill);
                  }
                  break;
 
         case 'S':bill=calculateBill(wardType,days);
                  if(days>7){
-                    printf("\nTotal Bill Before Discount:  %f",bill);
-                    printf("\nDiscount Applied:  %f",bill*.05);
-                    printf("\nFinal Bill Amount:  %f",bill-(bill*.05));  
+                    printf("\nTotal Bill Before Discount:  %.0f",bill);
+                    printf("\nDiscount Applied:  %.0f",bill*.05);
+                    printf("\nFinal Bill Amount:  %.0f",bill-(bill*.05));  
                 }
                 else{
-                    printf("\nFinal Bill Amount:  %f",bill);
+                    printf("\nFinal Bill Amount:  %.0f",bill);
                 }
                 break;
 
         case 'G':bill=calculateBill(wardType,days);
                  if(days>7){
-                    printf("\nTotal Bill Before Discount:  %f",bill);
-                    printf("\nDiscount Applied:  %f",bill*.05);
-                    printf("\nFinal Bill Amount:  %f",bill-(bill*.05));  
+                    printf("\nTotal Bill Before Discount:  %.0f",bill);
+                    printf("\nDiscount Applied:  %.0f",bill*.05);
+                    printf("\nFinal Bill Amount:  %.0f",bill-(bill*.05));  
                 }
                 else{
-                    printf("\nFinal Bill Amount:  %f",bill);
+                    printf("\nFinal Bill Amount:  %.0f",bill);
                 }
     }
     return 0;   
