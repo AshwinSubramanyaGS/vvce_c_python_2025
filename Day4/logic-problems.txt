@@ -1,7 +1,6 @@
 Program to check if a number is even or odd
 
-Program to accept name and salary. Check if their salary is >3L and display if they have to pay
-tax
+Program to accept name and salary. Check if their salary is >3L and display if they have to pay tax
 
 To find the largest of 3 numbers
 
