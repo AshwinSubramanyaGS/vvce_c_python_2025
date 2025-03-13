@@ -13,6 +13,7 @@ The program should:
 3. Compute the tax payable using the appropriate tax slabs.
 4. Apply any applicable standard deductions and rebates.
 5. Generate reports detailing gross salary, taxable income, tax payable, and net salary.
+
 Level 1: Basic Input and Salary Calculation
 Objective: Capture employee details and calculate the gross salary.
 Tasks:
