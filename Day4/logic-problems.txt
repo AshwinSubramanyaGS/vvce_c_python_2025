@@ -1,0 +1,16 @@
+Program to check if a number is even or odd
+
+Program to accept name and salary. Check if their salary is >3L and display if they have to pay
+tax
+
+To find the largest of 3 numbers
+
+Program to check if a year given is a leap year or not
+
+
+Write a program to accept a student’s name and scores in three subjects. Display the total, average,
+and class secured based on the following criteria:
+• 1st Class: Average score of 60 and above.
+• 2nd Class: Average score of 50 and above.
+• Pass Class: Average score of 35 and above.
+• Fail: Average score less than 35.
