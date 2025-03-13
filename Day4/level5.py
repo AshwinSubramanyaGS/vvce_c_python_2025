@@ -1,0 +1,11 @@
+# Display the report
+print("\n--- Employee Tax Report---")
+print(f"{'Field':<25}{'Details':<20}")
+print("-" * 45)
+print(f"{'Name':<25}{employee_name:<20}")
+print(f"{'EmpID':<25}{employee_id:<20}")
+print(f"{'Gross Monthly Salary':<25}₹{gross_monthly_salary:,.2f}")
+print(f"{'Annual Gross Salary':<25}₹{annual_gross_salary:,.2f}")
+print(f"{'Taxable Income':<25}₹{taxable_income:,.2f}")
+print(f"{'Tax Payable':<25}₹{total_tax_payable:,.2f}")
+print(f"{'Annual Net Salary':<25}₹{annual_net_salary:,.2f}")
