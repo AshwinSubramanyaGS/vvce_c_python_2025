@@ -1,0 +1,22 @@
+Dictionary Exercises
+1️⃣ Create & Access Dictionary: Create a dictionary with personal details and access values.
+2️⃣ Modify a Dictionary: Add a new key-value pair, update an existing key, and delete a key.
+3️⃣ Loop Through a Dictionary: Print all keys and values using a loop.
+4️⃣ Check If a Key Exists: Write a function to check if a given key exists in a dictionary.
+5️⃣ Merge Two Dictionaries: Combine two dictionaries into one.
+6️⃣ Dictionary Comprehension: Generate a dictionary with numbers as keys and squares as values.
+7️⃣ Word Frequency Counter: Count the frequency of words in a string using a dictionary.
+8️⃣ Sort a Dictionary by Value: Sort a dictionary in descending order based on values.
+9️⃣ Convert Lists to Dictionary: Convert two lists (keys & values) into a dictionary.
+🔟 Nested Dictionary: Access and modify elements in a nested dictionary.
+
+Lambda Function Exercises
+1️⃣ Basic Lambda: Create a lambda function to add two numbers.
+2️⃣ Lambda with map(): Use map() and a lambda function to square a list of numbers.
+3️⃣ Lambda with filter(): Use filter() to extract even numbers from a list.
+4️⃣ Lambda with sorted(): Sort a list of tuples based on the second element using a lambda function.
+5️⃣ Conditional Lambda: Write a lambda function to return the maximum of two numbers.
+6️⃣ Lambda in a Function: Write a function that returns a lambda to multiply by a given number.
+7️⃣ Lambda with reduce(): Use reduce() and a lambda function to calculate the product of a list.
+8️⃣ Lambda in List Comprehension: Apply a lambda function inside a list comprehension to double elements.
+9️⃣ Lambda with Dictionary Sorting: Sort a dictionary by values using a lambda function.
